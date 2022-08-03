@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif!important;
+    height: fit-content!important;
+}
+.mymainnav{
+   background: transparent!important;
+   position: relative!important;
+   
+   
+    
+}
+.navbar-brand img{
+    height: 10vh!important;
+    width: 20vw!important;
+    color: white!important;
+    
+}
+
+.mynavul{
+   width: 100%!important;
+    display: flex!important;
+   
+    align-items: center!important;
+    justify-content: space-evenly!important;
+    font-size: larger!important;
+    
+
+}
+.lihover{
+    /*color: black!important;*/
+    color: white!important;
+    
+}
+.lihover:hover{
+    color:red!important;
+    
+}
+
+.mymainbanner{
+    height: 100vh!important;
+    width: 100%!important;
+    background-color: aqua!important;
+    background: url("images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+   
+    
+    
+}
+.mainh1{
+    margin-top: 15%!important;
+    
+}
+.mainbannerbtn{
+    background: transparent!important;
+    color: black!important;
+    padding: 0.2rem 1.2rem!important;
+    font-size: 1.2rem!important;
+    font-weight: 400!important;
+    border: 1px solid black !important;
+    border-radius: 10px!important;
+    
+
+}
+.mainbannerbtn:hover{
+    background: red!important;
+    color: white!important;
+    border: 1px solid white !important;
+    
+
+}
+
+
+/*courses we Offer*/
+.box1,.box2,.box3{
+   height: 40vmin!important;
+    width: 40vmin!important;
+    border-radius: 10px!important;
+    margin: auto!important;
+    padding: 1.9rem 0.5rem!important;
+    background-color:rgb(238, 211, 211) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px rgb(19, 7, 7,0.2);
+    margin-top: 5vh!important;
+    
+    
+}
+.box1 p,.box2 p,.box3 p{
+    font-weight: 300!important;
+    font-size: 1rem!important;
+}
+.box1:hover{
+    box-shadow: none;
+    cursor: pointer;
+    transition:0.5s;
+    
+     
+    
+}
+.box2:hover{
+    box-shadow: none;
+    cursor: pointer;
+    transition:0.5s;
+     
+    
+}
+.box3:hover{
+    box-shadow: none;
+    cursor: pointer;
+    transition:0.5s;
+     
+    
+}
+
+
+
+/*Global campues*/
+.myglobalcampus1{
+    background-color: white!important;
+    background: url("images/london.png");
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: cover!important;
+    box-shadow: none!important;
+
+}
+.myglobalcampus1 h3{
+    opacity: 0;
+    transform: translateY(20vh);
+}
+
+.myglobalcampus1:hover h3{
+    opacity: 1;
+    transform: translateY(5vh);
+    transition:0.5s;
+    font-weight: bolder!important;
+    background-color:rgb(240, 169, 169)!important;
+    border-radius: 25%!important;
+    padding: 0.5rem 0.5rem!important;
+
+}
+
+.myglobalcampus2{
+    background-color: white!important;
+    background: url("images/newyork.png");
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: cover!important;
+    box-shadow: none!important;
+
+}
+.myglobalcampus2 h3{
+    opacity: 0;
+    transform: translateY(20vh);
+}
+
+.myglobalcampus2:hover h3{
+    opacity: 1;
+    transform: translateY(5vh);
+    transition:0.5s;
+    font-weight: bolder!important;
+    background-color:rgb(240, 169, 169)!important;
+    border-radius: 25%!important;
+    padding: 0.5rem 0.5rem!important;
+
+}
+
+
+.myglobalcampus3{
+    background-color: white!important;
+    background: url("images/washington.png");
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: cover!important;
+    box-shadow: none!important;
+
+}
+.myglobalcampus3 h3{
+    opacity: 0;
+    transform: translateY(20vh);
+    ;
+}
+
+.myglobalcampus3:hover h3{
+    opacity: 1;
+    transform: translateY(5vh);
+    transition:0.5s;
+    font-weight: bolder!important;
+    background-color:rgb(240, 169, 169)!important;
+    border-radius: 25%!important;
+    padding: 0.5rem 0.5rem!important;
+
+}
+
+
+
+/*Our facilities*/
+.myfacbox1{
+    background: none!important;
+}
+.box11{
+    background: url("images/library.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40vmin!important;
+    width: 40vmin!important;
+    margin-top: 25vh!important;
+    border-radius: 10px!important;
+}
+.box12{
+    background: url("images/basketball.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40vmin!important;
+    width: 40vmin!important;
+    margin-top: 25vh!important;
+    border-radius: 10px!important;
+}
+.box13{
+    background: url("images/cafeteria.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40vmin!important;
+    width: 40vmin!important;
+    margin-top: 25vh!important;
+    border-radius: 10px!important;
+}
+
+
+/*reviews*/
+.review{
+margin-top: 25vh!important;
+text-align: center;
+margin-bottom: 5vh!important;
+}
+.image1{
+    height: 10vmin!important;
+    width: 10vmin!important;
+    border: 1px solid black !important;
+    border-radius: 25px!important;
+    background-image: url("images/user1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.image2{
+    height: 10vmin!important;
+    width: 10vmin!important;
+    border: 1px solid black !important;
+    border-radius: 25px!important;
+    background-image: url("images/user2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fas{
+    color: rgb(240, 169, 169)!important;
+}
+.mytestimonialbg{
+    background-color: rgb(238, 211, 211)!important;
+    border-radius: 10px!important   ;
+}
+
+
+/*call to action*/
+.calltoaction{
+    background: url("images/banner2.jpg");
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: 100% 100%!important;
+    height: 60vh!important;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: center!important;
+    align-items: center!important;
+    border-radius: 20px!important;
+    margin-top: 10vh!important;
+    margin-bottom: 10vh!important;
+    
+    margin-left: auto!important;
+    margin-right: auto!important;
+    opacity: 0.8!important;
+    background-color: rgb(65, 61, 61)!important;
+    
+}
+
+
+
+/*footer*/
+.fab,.fa-heart,.far{
+    color: rgb(240, 169, 169)!important;
+}
+.fab,.fa-heart:hover{
+    cursor: pointer!important;
+}
+
+
+/*common class*/
+.textclass{
+    font-weight: 500!important;
+    font-size: 1rem!important;
+        
+
+}
+
+
+
+
+/********************about.html*************************************************/
+
+
+.mymainbanneraboutus{
+    height: 70vh!important;
+    width: 100%!important;
+    opacity: 0.8!important;
+   
+    
+    background: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+    text-align: center;
+    color: white!important;
+   
+    
+    
+}
+.mainh1aboutus{
+    margin-top: 10%!important;
+}
+
+
+/********************course.html*************************************************/
+
+.mycoursefooter{
+    margin-top: 25vh!important;
+}
+
+
+/********************blog.html*************************************************/
+.myblogcategory{
+    
+    background-color: rgb(240, 169, 169)!important;
+    color: white!important;
+    font-weight: bolder;
+    margin: 1.5rem 0px !important;
+
+}
+.bloginput{
+    background-color:rgb(240, 169, 169)!important; 
+}
+.myblogbtn{
+    border: 1px solid rgb(240, 169, 169)!important;
+    border-radius: 10px !important;
+    background-color: white!important;
+    padding: 0.5rem 0.5rem!important;
+}
+.myblogbtn:hover{
+    cursor: pointer!important;
+    background-color: rgb(240, 169, 169)!important;
+    border: 1px solid white!important;
+    transition: 0.15s!important;
+
+}

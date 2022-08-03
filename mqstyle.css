@@ -1,0 +1,86 @@
+@media (max-width: 991.92px) { 
+    
+    .navbar-toggler{
+        background-color: white!important;
+        
+    }
+    .mynavul{
+        font-size: larger!important;
+        font-weight: bold!important;
+        
+    }
+ }
+
+
+ @media (max-width: 575.98px) {
+    
+    .mymainbanner{
+        height: 120vh!important;
+        
+       
+
+    }
+    .mainh1{
+        margin-top: 25%!important;
+        
+    }
+    .box1 p,.box2 p,.box3 p{
+        font-weight: 300!important;
+        font-size: 1rem!important;
+    }
+    .box1,.box2,.box3{
+        width: 90%!important;
+        height: 40vh!important;
+        
+    }
+  }
+
+
+  @media (max-width: 767.98px) {
+    
+    .box1,.box2,.box3{
+        width: 90%!important;
+       
+    }
+    .box11,.box12,.box13{
+        width: 100%!important;
+        height: 40vh!important;
+    }
+    .myfacbox1{
+        margin-top: 8vh!important;
+        margin-bottom: 8vh!important;
+    }
+    .mqfac{
+        margin-top: 0vh!important;
+        padding-top: 0vh!important;
+    }
+   .mytestimonialbg{
+        margin-top: 2vh!important;
+        margin-bottom: 2vh!important;
+        margin-left: 1vw!important;
+        margin-right: 1vw!important;
+        width: 100%!important;
+    }
+    .review{
+        margin-top: 17vh!important;
+    }
+    .mqrevioew{
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+    .calltoaction{
+        height: 40vh!important;
+        margin-top: 5vh!important;
+    margin-bottom: 5vh!important;
+    width: 90%!important;
+    
+    }
+    .calltoaction h1{
+        font-size: 1.2rem!important;
+
+    }
+    .mqcenter{
+        text-align: center!important;
+    }
+    
+  }
